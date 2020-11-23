@@ -11,8 +11,8 @@ IPAddress local_IP(192, 168, 0, 231); //ip local estatico
 IPAddress gateway(192, 168, 0, 1); //ip do gateway da conexão
 IPAddress subnet(255, 255, 255, 0); // mascara de rede
 WiFiClient BomAr; //nome de identificação do dispositivo na rede
-const char* ssid = "VIVO DIBRA"; //SSID da rede wireless
-const char* password = "Dbjv7vk7"; //PASSWORD da rede wireless
+const char* ssid = "nome da rede "; //SSID da rede wireless
+const char* password = "senha da rede"; //PASSWORD da rede wireless
 const char* mqtt_server = "rangecomp.com.br"; //ip do servidor mqtt
 const char* mqtt_topic = "Alarme/feedback"; //topico a ser ouvido
 const uint16_t mqtt_port = 1889; // porta do servidor mqtt
